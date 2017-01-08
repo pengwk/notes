@@ -338,5 +338,84 @@ for i in range(15, exp_guide_book.WorkSheets.Count+1):
 
 ## 启动应用
 
+# Draft
+
+要是工作生活中，机械的重复使用Office套件，不如编写Python自动化完成！
+
+Word和Excel都可以录制宏，可以看到VBA代码，但是Python怎么写呢？
+
+抄！
+
+- 抄函数
+
+#### 首先启动软件
+
+```python
+from win32com.client.gencache import EnsureDispatch
+
+excel = EnsureDispatch('Excel.Application')
+```
+
+`EnsureDispatch`启动软件是最好的！
+
+#### 打开文档
+
+```python
+shit_xls = r"E:\dirty_work\VBA\excel.xls"
+```
 
 
+
+#### 抄函数
+
+
+
+##### 抄参数
+
+##### 抄常量
+
+#### 抄with
+
+#### 加速
+
+
+
+#### 异常处理
+
+
+
+#### 关闭文档
+
+#### 抄官方文档
+
+##### 注意事项
+
+
+
+
+
+Python的优势
+
+怎么转换 抄代码
+
+关键点
+
+启动关闭
+
+常量
+
+变量
+
+函数
+
+With
+
+直接开头的表达式
+
+错误处理
+
+效率
+
+开发文档
+
+总结
